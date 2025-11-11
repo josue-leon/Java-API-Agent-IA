@@ -22,7 +22,7 @@ public class VideoEntity {
   @Column(nullable = false, length = 40)
   private String categoria;
 
-  @Column(name = "fecha_estreno")
+  @Column(name = "fecha_creacion")
   private LocalDate fechaCreacion;
 
   @Column(precision = 3, scale = 2)
